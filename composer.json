@@ -17,6 +17,11 @@
             "email": "aditans88@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Xtwoend\\DataGrid\\": "src/"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
