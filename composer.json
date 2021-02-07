@@ -1,0 +1,31 @@
+{
+    "name": "xtwoend/data-grid",
+    "description": "Data grid jquery",
+    "type": "library",
+    "require": {
+        "php": "^7|^8",
+        "illuminate/database": "5.8.*|^6|^7|^8",
+        "illuminate/filesystem": "5.8.*|^6|^7|^8",
+        "illuminate/http": "5.8.*|^6|^7|^8",
+        "illuminate/support": "5.8.*|^6|^7|^8",
+        "illuminate/view": "5.8.*|^6|^7|^8"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abdul Hafidz Anshari",
+            "email": "aditans88@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xtwoend\\DataGrid\\DataTablesServiceProvider"
+            ],
+            "aliases": {
+                "Datatables": "Xtwoend\\DataGrid\\Facades\\Datatables"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}
