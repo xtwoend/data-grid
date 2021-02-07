@@ -20,7 +20,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Xtwoend\\DataGrid\\DataTablesServiceProvider"
+                "Xtwoend\\DataGrid\\DatatablesServiceProvider"
             ],
             "aliases": {
                 "Datatables": "Xtwoend\\DataGrid\\Facades\\Datatables"
